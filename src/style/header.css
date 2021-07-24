@@ -3,8 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 101px 0 111px;
   height: 80px;
+  border-bottom: 1px solid rgba(32, 32, 32, 0.05);
+  margin-bottom: 20px;
 }
 
 .head__nav {
@@ -56,12 +57,12 @@
   position: absolute;
   content: '8';
   top: -6px;
-  right: -3px;
+  right: 0;
   background-color: red;
   color: #fff;
   border-radius: 50%;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   text-align: center;
   padding: 4px;
   line-height: 1;

@@ -1,0 +1,145 @@
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
+.product__img {
+  margin-right: 20px;
+}
+
+.product__img img {
+  height: 524px;
+  width: 659px;
+  margin-bottom: 16px;
+}
+
+.product__img-prev {
+  display: flex;
+  flex-direction: row;
+}
+
+.product__img-prev img {
+  margin-right: 16px;
+  width: 64px;
+  height: 64px;
+}
+
+.product__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product__title {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #202020;
+}
+
+.product__purchase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product__purchase span:not(:last-child) {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+select {
+  width: 293px;
+  height: 48px;
+  padding: 16px 12px;
+  margin-bottom: 18px;
+  border-radius:4px;
+  box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+}
+
+select,
+option {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.product_price {
+  position: relative;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  color: #CC0000;
+}
+
+.product_price::after {
+  position: absolute;
+  width: 78px;
+  content: "Tax included";
+  font-size: 13px;
+  line-height: 16px;
+  color: #232231;
+}
+
+.product__btn {
+  display: flex;
+}
+
+.product__btn-group {
+  display: flex;
+  margin-right: 15px;
+}
+
+.product__btn-group button {
+  width: 44px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 4px 0px 0px 4px;
+}
+
+.product__btn-group div {
+  width: 63px;
+  height: 48px;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.13);
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  color: #202020;
+}
+
+.product__btn-add-card {
+  width: 262px;
+  height: 48px;
+  background: #CC0000;
+  border: 1px solid #950000;
+  box-sizing: border-box;
+  box-shadow: inset 0px -2px 2px rgba(32, 32, 32, 0.33);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-shadow: 0px -1px 0px rgba(32, 32, 32, 0.33);
+}
+
+.product__desc h4 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product__desc h4,
+p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #202020;
+}
