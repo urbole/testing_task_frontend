@@ -1,0 +1,68 @@
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 101px 0 111px;
+  height: 80px;
+}
+
+.head__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.head__nav-items {
+  margin-right: 40px;
+}
+
+.head__link {
+  text-decoration: none;
+  color: #202020;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.head__link:last-child {
+  text-transform: uppercase;
+  color: #CC0000;
+}
+
+.head__link:not(:last-child) {
+  margin-right: 32px;
+}
+
+.head__search {
+  width: 30px;
+  background-image: url('../assets/ico/search.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid #fff;
+  margin-right: 24px;
+}
+
+.head__cart {
+  border: 1px solid #fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.head__cart {
+  position: relative;
+}
+
+.head__cart::before {
+  position: absolute;
+  content: '8';
+  top: -6px;
+  right: -3px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  padding: 4px;
+  line-height: 1;
+}

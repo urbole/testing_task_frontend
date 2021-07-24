@@ -1,11 +1,11 @@
 "use strick";
 import 'core-js';
 import 'regenerator-runtime/runtime';
-import logo from './assets/img/logo.png';
 import ico from './assets/ico/dopler.jpeg';
-import cartPng from './assets/ico/cart.png';
+import logoImg from './assets/img/logo.png';
+import cartImg from './assets/ico/cart.png';
 // import searchPng from './assets/ico/search.png';
-import './style.scss';
+import './style.css';
 
 
 document.head.insertAdjacentHTML('afterbegin',
@@ -13,7 +13,7 @@ document.head.insertAdjacentHTML('afterbegin',
 );
 
 const headerLogo = document.getElementById('head-logo');
-headerLogo.insertAdjacentHTML('beforeend', `<img class="head__img" src=${logo} alt="logo">`);
+headerLogo.insertAdjacentHTML('beforeend', `<img class="head__img" src=${logoImg} alt="logo">`);
 
 const headCart = document.getElementById('head-cart');
-headCart.insertAdjacentHTML('beforeend',`<img class="head__img" src=${cartPng} alt="logo">`);
+headCart.insertAdjacentHTML('beforeend',`<img class="head__img" src=${cartImg} alt="logo">`);

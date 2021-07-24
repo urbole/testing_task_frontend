@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Mulish:wght@400;700&display=swap');
-@import url(style/reset.css);
-@import url(style/header.scss);
-@import url(style/content.css);
+@import url('./style/reset.css');
+@import url('./style/header.css');
 
 body {
-  /* background-color: black; */
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #202020;
-  /* max-width: 1366px; */
-  /* width: 100vw; */
   margin: 0 auto;
-  /* font-family: 'Goudy Bookletter 1911', serif; */
 }
 
+
+/* font-family: 'Goudy Bookletter 1911', serif; */
