@@ -7,6 +7,12 @@ import cartImg from './assets/ico/cart.png';
 // import searchPng from './assets/ico/search.png';
 import './style.css';
 
+const header = document.querySelector('.head');
+const headerBurgerBtn = header.querySelector('.head__burger-btn');
+headerBurgerBtn.addEventListener('click', (e) => {
+  header.classList.toggle('head--menu-open');
+});
+
 
 document.head.insertAdjacentHTML('afterbegin',
   `<link rel="shortcut icon" href="${ico}" type="image/x-icon">`
