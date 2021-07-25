@@ -4,12 +4,8 @@
 
 .head__burger-btn {
   position: relative;
-  /* z-index: 9; */
-  /* right: 5px; */
-  /* top: 20px; */
   height: 18px;
   width: 30px;
-  /* transform: translate(-50%, -50%); */
   background-color: transparent;
   border: none;
   padding: 0;

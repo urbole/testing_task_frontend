@@ -3,19 +3,30 @@
 @import url('./style/header.css');
 @import url('./style/product.css');
 @import url('./style/burger-btn.css');
+@import url('./style/cart.css');
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  position: relative;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-size: 16px;
   color: #202020;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
   margin: 0 auto;
   max-width: 1144px;
   padding: 0 2em;
+  background-color: #fff;
 }
 
 @media screen and (max-width: 1198px) {
@@ -27,6 +38,9 @@ body {
 @media screen and (max-width: 720px) {
   body {
     font-size: 16px;
+  }
+
+  .wrapper {
     padding: 0 .5em;
   }
 }
@@ -34,9 +48,9 @@ body {
 @media screen and (max-width: 580px) {
   body {
     font-size: 14px;
+  }
+
+  .wrapper {
     padding: 0;
   }
 }
-
-
-/* font-family: 'Goudy Bookletter 1911', serif; */
