@@ -41,7 +41,7 @@ headerLogo.insertAdjacentHTML('beforeend', `
 `);
 const headCart = document.getElementById('head-cart-open');
 headCart.insertAdjacentHTML('beforeend', `
-  <img class="head__img" src=${cartImg} alt="logo">
+  <img class="head__img" src=${cartImg} alt="cart">
 `);
 const productImg = document.getElementById('product-img');
 productImg.insertAdjacentHTML('afterbegin', `
